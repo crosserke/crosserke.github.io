@@ -1,0 +1,86 @@
+/* Algemene stijlen */
+
+body {
+    background-color: #5F4B66;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2C1320;
+    color: #5F4B66;
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    color: #5F4B66; /* Witte kleur voor de titel */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #5F4B66;
+}
+
+nav ul li a:visited {
+    color: #A7ADC6;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    text-align: left;
+    color: #000000;
+}
+
+.video-container {
+    position: absolute;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+
+a:visited {
+    color:#fff;
+    text-align: center;
+}
+footer {
+    background-color: #2C1320;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
